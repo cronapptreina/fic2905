@@ -10,11 +10,9 @@ import java.util.TimeZone;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {
-	
 	"cronapp.framework.authentication.token",
 	"cronapp.framework.authentication.security",
 	"cronapp.framework.rest",
-    "cronapp.framework.scheduler",
 	"auth.permission",
 	"api.rest.events",
 	"api.rest.webservices",
@@ -29,6 +27,7 @@ public class SpringBootMain extends SpringBootServletInitializer {
     static {
         TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
     }
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootMain.class, args);

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Context>
     <Resource accessToUnderlyingConnectionAllowed="true" driverClassName="org.h2.Driver" logAbandoned="true" name="jdbc/main" password="root" profile="DEV" removeAbandoned="false" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:h2:file:~/c48ba12fa61b483f91fef7af44409159;DATABASE_TO_UPPER=false;ALIAS_COLUMN_NAME=true;AUTO_SERVER=TRUE" username="root"/>
+    <Resource accessToUnderlyingConnectionAllowed="false" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" name="jdbc/Fic29051" password="292po0s27n6ors16" profile="" removeAbandoned="false" removeAbandonedTimeout="60" schema="" type="javax.sql.DataSource" url="jdbc:mysql://rds-oncronos-shared.cx8gelec2ybx.us-east-1.rds.amazonaws.com:3306/51ec4cf8-ce98-4e62-92cb-0f27a6bef16e?createDatabaseIfNotExist=true" username="51rp4ps8pr984r62"/>
     <Profile value="DEV"/>
 </Context>
